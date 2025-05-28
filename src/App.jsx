@@ -4,8 +4,6 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Teacher from "./Pages/Teacher";
-import Student from "./Pages/Student";
 import NotFound from "./Pages/NotFound";
 
 function App() {
