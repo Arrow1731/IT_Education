@@ -11,7 +11,6 @@ import Yangiliklar from "./Pages/Yangiliklar";
 import Maslahatlar from "./Pages/Maslahatlar";
 import Boglanish from "./Pages/Boglanish";
 
-
 function App() {
   return (
     <Router>
@@ -26,7 +25,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Universitet" element={<Universitet />} />
         <Route path="/Yangiliklar" element={<Yangiliklar />} />
-        <Route path="/Maslahatlar" element={<Maslahatlar />} />
+        <Route path="/Maslahatlar/courses_list" element={<Maslahatlar />} />
         <Route path="/Markaz_haqida" element={<About />} />
         <Route path="/Boglanish" element={<Boglanish />} />
         <Route path="*" element={<NotFound />} />

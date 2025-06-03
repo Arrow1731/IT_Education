@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from '../assets/logo_color.png';
 import { Eye } from 'lucide-react';
 import { Earth } from 'lucide-react';
+// import courses_list_Link from "../Pages/Maslahatlar/courses_list";
 
 
 function Navigation() {
@@ -41,8 +42,23 @@ function Navigation() {
           <NavLink className='font-lato font-bold text-[#424551]' to="/Yangiliklar" activeClassName="active">
           Yangiliklar
           </NavLink>
-          <NavLink className='font-lato font-bold text-[#424551]' to="/Maslahatlar" activeClassName="active">
-          IT-maslahatlar
+          <NavLink className='font-lato font-bold text-[#424551]' to="/Maslahatlar/courses_list_Link" activeClassName="active">
+
+          <select name="select" id="">
+                                <option value="Hudud">IT-maslahatlar</option>
+                                <option value="/Maslahatlar/courses_list">courses_list</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                                <option value="Hudud">Hudud</option>
+                            </select>
+
           </NavLink>
           <NavLink className='font-lato font-bold text-[#424551]' to="/About" activeClassName="active">
           Markaz haqida
