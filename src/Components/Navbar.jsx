@@ -17,7 +17,7 @@ function Navigation() {
       </div>
       <nav className="border-b-2">
         <div className="container py-[20px] flex justify-around items-center">
-        <NavLink exact to="/" activeClassName="active">
+        <NavLink exact to="/Home" activeClassName="active">
           <img src={logo} alt="" />
         </NavLink>
         <span className="flex gap-[40px] items-center">
