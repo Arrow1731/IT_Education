@@ -3,12 +3,15 @@ import math from '../assets/math.png'
 import boy from '../assets/boy.png'
 import wallet from '../assets/wallet.png'
 import robo from '../assets/robo.png'
+import laptop1 from '../assets/laptop1.png'
+import laptop2 from '../assets/laptop2.png'
+import laptop3 from '../assets/laptop3.png'
 
 export default class Home extends Component {
   render() {
     return (
-      <div className='container'>
-        <header>
+      <div>
+        <header className='container'>
           <h1 className='text-center mt-[40px] text-[56px] font-bold text-[#222222]'>Raqamli ta’lim loyihalari</h1>
           <div className='flex justify-between bg-[#F8F8F8] rounded-[16px] mt-[40px] mb-[148px]'>
             <div className='ml-[40px] mt-[40px]'>
@@ -27,7 +30,7 @@ export default class Home extends Component {
 
         </header>
         <main>
-          <section>
+          <section className='container'>
           <h1 className='text-center mt-[40px] text-[56px] font-bold text-[#222222]'>Maxsus imkoniyalar</h1>
 
           <div className='mt-[40px]'>
@@ -114,13 +117,51 @@ pullaringni qaytarib ol</p>
               </div>
             </div>
               <div className='flex justify-center'>
-            <button className='py-[8px] px-[32px] bg-[#2675EB] text-[20px] font-medium text-white rounded-[27px]'>Barchasini ko’rish</button>
+            <button className='py-[8px] px-[32px] bg-[#2675EB] text-[20px] font-medium text-white rounded-[27px] mb-[120px]'>Barchasini ko’rish</button>
               </div>
           </div>
 
+          </section>
+          <section className='bg-[#F5F7FF]'>
+            <h1 className='text-center pt-[40px] mb-[40px] text-[44px] font-semibold text-[#222222]'>Tadbirlar rejasi</h1>
+              <div className='flex justify-between container'>
+                <div className='max-w-[384px] w-auto rounded-[12px] bg-white shadow-md'>
+                  <img className='rounded-[12px]' src={laptop1} alt="" />
+                  <span>
+                    <h3 className='font-medium text-[20px] mt-[16px] mb-[8px] ml-[16px]'>InnoWomenWeek</h3>
+                    <h3 className='font-semibold text-[14px] text-[#2675EB] ml-[16px]'>19-iyul, 2024</h3>
+                    <p className='text-[14px] font-normal mt-[16px] mb-[20px] ml-[16px]'>6 ta yo’nalish bo’yicha IT loyihalarga pullik yutuqli tanlov dasturi 6 ta yo’nalish bo’yicha IT tanlov...</p>
+                    <button className='px-[24px] py-[8px] border border-[#222222] rounded-[27px] ml-[16px] mb-[16px]'>Ko’proq ko’rish</button>
+                  </span>
+                </div>
+                <div className='max-w-[384px] w-auto rounded-[12px] bg-white shadow-md'>
+                  <img className='rounded-[12px]' src={laptop2} alt="" />
+                  <span>
+                    <h3 className='font-medium text-[20px] mt-[16px] mb-[8px] ml-[16px]'>InnoWomenWeek</h3>
+                    <h3 className='font-semibold text-[14px] text-[#2675EB] ml-[16px]'>19-iyul, 2024</h3>
+                    <p className='text-[14px] font-normal mt-[16px] mb-[20px] ml-[16px]'>6 ta yo’nalish bo’yicha IT loyihalarga pullik yutuqli tanlov dasturi 6 ta yo’nalish bo’yicha IT tanlov...</p>
+                    <button className='px-[24px] py-[8px] border border-[#222222] rounded-[27px] ml-[16px] mb-[16px]'>Ko’proq ko’rish</button>
+                  </span>
+                </div>
+                <div className='max-w-[384px] w-auto rounded-[12px] bg-white shadow-md'>
+                  <img className='rounded-[12px]' src={laptop3} alt="" />
+                  <span>
+                    <h3 className='font-medium text-[20px] mt-[16px] mb-[8px] ml-[16px]'>InnoWomenWeek</h3>
+                    <h3 className='font-semibold text-[14px] text-[#2675EB] ml-[16px]'>19-iyul, 2024</h3>
+                    <p className='text-[14px] font-normal mt-[16px] mb-[20px] ml-[16px]'>6 ta yo’nalish bo’yicha IT loyihalarga pullik yutuqli tanlov dasturi 6 ta yo’nalish bo’yicha IT tanlov...</p>
+                    <button className='px-[24px] py-[8px] border border-[#222222] rounded-[27px] ml-[16px] mb-[16px]'>Ko’proq ko’rish</button>
+                  </span>
+                </div>
+
+              </div>
+              <div className='flex justify-center mt-[40px] pb-[24px]'>
+              <button className='py-[8px] px-[32px] bg-[#2675EB] text-[20px] font-medium text-white rounded-[27px]'>Barcha tadbirlar</button>
+              </div>
           </section>
         </main>
       </div>
     )
   }
 }
+
+{/* <button className='py-[8px] px-[32px] bg-[#2675EB] text-[20px] font-medium text-white rounded-[27px]'>Batafsil</button> */}
