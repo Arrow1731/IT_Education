@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import math from '../assets/math.png'
 import boy from '../assets/boy.png'
+import wallet from '../assets/wallet.png'
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
-        <header className='container'>
+      <div className='container'>
+        <header>
           <h1 className='text-center mt-[40px] text-[56px] font-bold text-[#222222]'>Raqamli ta’lim loyihalari</h1>
           <div className='flex justify-between bg-[#F8F8F8] rounded-[16px] mt-[40px] mb-[148px]'>
             <div className='ml-[40px] mt-[40px]'>
@@ -24,6 +25,105 @@ export default class Home extends Component {
           </div>
 
         </header>
+        <main>
+          <section>
+          <h1 className='text-center mt-[40px] text-[56px] font-bold text-[#222222]'>Maxsus imkoniyalar</h1>
+
+          <div className='mt-[40px]'>
+            <div className='flex justify-between mb-[24px]'>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+            </div>
+            <div className='flex justify-between mb-[24px]'>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+            </div>
+            <div className='flex justify-between mb-[40px]'>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+              <div className='max-w-[384px] w-auto flex border rounded-[12px]'>
+                <span className='ml-[20px] mb-[20px]'>
+                <h3 className='text-[24px] font-semibold'>IT kompensatsiya
+                ol</h3>
+                <p>IT ga Sarflagan <br />
+                pullaringni qaytarib ol</p>
+                </span>
+                <img className='w-[150px] h-[150px]' src={wallet} alt="" />
+              </div>
+            </div>
+              <div className='flex justify-center'>
+            <button className='py-[8px] px-[32px] bg-[#2675EB] text-[20px] font-medium text-white rounded-[27px]'>Barchasini ko’rish</button>
+              </div>
+          </div>
+
+          </section>
+        </main>
       </div>
     )
   }
