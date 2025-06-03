@@ -10,15 +10,58 @@ function Footer() {
         <div>
           <img className="w-[384px] h-[224px] rounded-[12px]" src={FooterMap} alt="" />
         </div>
-        <div>
-          <div className="flex gap-[118px]">
+        <div className="flex gap-[118px] text-[#fff]">
+          <div>
             <img src={logo} alt="" />
-            <h4>O‘quvchilarga</h4>
-            <h4>Tadbirkorlarga</h4>
+            <ul className="mt-[52px]">
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+            </ul>
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div>
+            <h4 className="font-semibold text-[#B7B7B7]">O‘quvchilarga</h4>
+            <ul className="mt-[16px]">
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold text-[#B7B7B7]">Tadbirkorlarga</h4>
+            <ul className="mt-[16px]">
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+              <a href="#">
+                <li>Home</li>
+              </a>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
