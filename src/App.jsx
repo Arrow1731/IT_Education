@@ -19,15 +19,18 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-
         <Route path="/Loyihalar" element={<Loyihalar />} />
         <Route path="/Oquv_markazlar" element={<Contact />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
         <Route path="/IT_universitetlar" element={<Universitet />} />
         <Route path="/Yangiliklar" element={<Yangiliklar />} />
         <Route path="/IT-maslahatlar" element={<Maslahatlar />} />
         <Route path="/Markaz_haqida" element={<About />} />
         <Route path="/Boglanish" element={<Boglanish />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/Loyihalar" element={<Loyihalar />} />
       </Routes>
 
       <Footer />

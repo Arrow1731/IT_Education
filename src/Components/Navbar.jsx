@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from '../../public/logo_color.png';
+import logo from '../assets/logo_color.png';
 import { Eye } from 'lucide-react';
+import { Earth } from 'lucide-react';
+
 
 function Navigation() {
   return (
@@ -18,12 +20,21 @@ function Navigation() {
           <img src={logo} alt="" />
         </NavLink>
         <span className="flex gap-[40px] items-center">
+          <NavLink className='font-lato font-bold text-[#424551]' to="/Home" activeClassName="active">
+          Home
+          </NavLink>
+          <NavLink className='font-lato font-bold text-[#424551]' to="/About" activeClassName="active">
+          About
+          </NavLink>
+          <NavLink className='font-lato font-bold text-[#424551]' to="/Contact" activeClassName="active">
+          Contact
+          </NavLink>
           <NavLink className='font-lato font-bold text-[#424551]' to="/Loyihalar" activeClassName="active">
           Loyihalar
           </NavLink>
-          <NavLink className='font-lato font-bold text-[#424551]' to="/contact" activeClassName="active">
+          {/* <NavLink className='font-lato font-bold text-[#424551]' to="/contact" activeClassName="active">
           O’quv markazlar
-          </NavLink>
+          </NavLink> */}
           <NavLink className='font-lato font-bold text-[#424551]' to="/Universitet" activeClassName="active">
           IT universitetlar
           </NavLink>
@@ -33,18 +44,19 @@ function Navigation() {
           <NavLink className='font-lato font-bold text-[#424551]' to="/Maslahatlar" activeClassName="active">
           IT-maslahatlar
           </NavLink>
-          <NavLink className='font-lato font-bold text-[#424551]' to="/About" activeClassName="active">
+          {/* <NavLink className='font-lato font-bold text-[#424551]' to="/About" activeClassName="active">
           Markaz haqida
-          </NavLink>
+          </NavLink> */}
           <NavLink className='font-lato font-bold text-[#424551]' to="/Boglanish" activeClassName="active">
           Bog’lanish
           </NavLink>
-          <div>
+        </span>
+        <div>
             <span><Eye /></span>
             <span><p>UZ</p></span>
             <span><Earth /></span>
           </div>
-        </span>
+
         </div>
       </nav>
     </div>
