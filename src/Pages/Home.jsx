@@ -8,7 +8,7 @@ export default class Home extends Component {
       <div>
         <header className='container'>
           <h1 className='text-center mt-[40px] text-[56px] font-bold text-[#222222]'>Raqamli ta’lim loyihalari</h1>
-          <div className='flex justify-between bg-[#F8F8F8] rounded-[16px] mb-[148px]'>
+          <div className='flex justify-between bg-[#F8F8F8] rounded-[16px] mt-[40px] mb-[148px]'>
             <div className='ml-[40px] mt-[40px]'>
               <h2 className='text-[44px] font-bold text-[#2675EB]'>Al-Xorazmiy</h2>
               <p className='text-[24px] font-medium text-black max-w-[365px] w-auto mt-[36px] mb-[39px]'>IT sohasiga qiziqadigan iqtidorli
