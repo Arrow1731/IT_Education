@@ -22,9 +22,9 @@ export default class courses_list extends Component {
                         </div>
                         <div>
                             <p>O’quv markaz bo’yicha</p>
-                            <input type="search" name="" id="" placeholder='O’quv markaz nomi' />
+                            <input className='border-[1px] w-[250px] h-[40px] px-[40px] rounded-[8px]' type="search" name="" id="" placeholder='O’quv markaz nomi' />
 
-                            <div>
+                            <div className='flex'>
                                 <input type="checkbox" name="" id="" /> <p>PDP ACADEMY</p>
                                 <input type="checkbox" name="" id="" /> <p>PDP ACADEMY</p>
                                 <input type="checkbox" name="" id="" /> <p>PDP ACADEMY</p>
@@ -37,7 +37,6 @@ export default class courses_list extends Component {
                             <input type="search" name="" id="" placeholder='O’quv kurs ' />
 
                             <div>
-                                <input type="checkbox" name="" id="" /> <p>PDP ACADEMY</p>
                                 <input type="checkbox" name="" id="" /> <p>PDP ACADEMY</p>
                                 <input type="checkbox" name="" id="" /> <p>PDP ACADEMY</p>
                                 <input type="checkbox" name="" id="" /> <p>PDP ACADEMY</p>
@@ -100,7 +99,7 @@ export default class courses_list extends Component {
                                     <div>
                                         <p>Create beautiful websites from
                                             the scratch </p>
-                                            <p>900,000 Uzs/oyiga</p>
+                                        <p>900,000 Uzs/oyiga</p>
                                     </div>
                                     <div>
                                         <p>Tashkent</p>
