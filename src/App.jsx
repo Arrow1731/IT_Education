@@ -19,6 +19,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/Loyihalar" element={<Loyihalar />} />
         <Route path="/Oquv_markazlar" element={<Contact />} />
         <Route path="/IT_universitetlar" element={<Universitet />} />
