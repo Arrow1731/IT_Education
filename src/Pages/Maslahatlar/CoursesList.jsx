@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Coures_img from '../assets/course.png';
-import PDP_logo from '../assets/pdp_logo.png';
+import Coures_img from '../../assets/course.png';
+import PDP_logo from '../../assets/pdp_logo.png';
 
 export default class courses_list extends Component {
     render() {
         return (
             <div>
-                <div className="container">
-                    <div>
-                        <div>
+                <div className="container flex justify-between">
+                    <div className='border-[2px] p-[16px]'>
+                        <div className='flex justify-between'>
                             <h3>Saralash</h3>
                             <a href="#">Tozzalash</a> <hr />
                         </div>
@@ -16,9 +16,9 @@ export default class courses_list extends Component {
                             <h4>Kurslar narx oralig’i</h4>
                             <input type="radio" name="" id="" />
                         </div>
-                        <div>
-                            <p>2,500,000</p>
-                            <p>2,500,000</p>
+                        <div className='flex justify-between'>
+                            <p className='border-[1px] bg-[#dad8d8] px-[16px] py-[8px] rounded-[8px] w-[119px] h-[40px] text-center'>2,500,000</p>
+                            <p className='border-[1px] bg-[#dad8d8] px-[16px] py-[8px] rounded-[8px] w-[119px] h-[40px] text-center'>2,500,000</p>
                         </div>
                         <div>
                             <p>O’quv markaz bo’yicha</p>
