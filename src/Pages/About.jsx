@@ -26,20 +26,22 @@ export default class About extends Component {
               <a href="#" className='bg-[#F8F8F8] w-[147px] h-[40px] px-[32px] py-[8px] rounded-[27px] border-[1px]'>Yuqori turuvchi tashkilot</a>
             </div>
 
-            {/* INFO COMPANY */}
-
-            <div className='mt-[80px]'>
-              <h1 className='font-bold text-[56px]'>Biz haqimizda</h1>
-              <div className='flex gap-10 mt-[40px]'>
-                <img src={INFOimg} alt="" />
-                <p className='text-[20px] max-w-[588px] w-full'>Raqamli ta'limni rivojlantirish markazi vazirilik oldiga qo'ygan missiyalarga erishishda IT iqtidorlar va xususiy IT ta'limni qo'llab -quvatlash,
-                  yoshlarni IT bilimini oshirishda davlat tominidan moliyalashtiriladigan dasturlarni ishlab chiqish va muvofiqlashtirish hamda aholi va davlat xizmatchilarining IT savodxonligini
-                  oshirish ustida uzoq muddatli satrategik faoliyatni olib boradi.
-                </p>
-              </div>
-            </div>
-
             <main>
+
+              {/* INFO COMPANY */}
+
+              <div className='mt-[80px]'>
+                <h1 className='font-bold text-[56px]'>Biz haqimizda</h1>
+                <div className='flex gap-10 mt-[40px]'>
+                  <img src={INFOimg} alt="" />
+                  <p className='text-[20px] max-w-[588px] w-full'>Raqamli ta'limni rivojlantirish markazi vazirilik oldiga qo'ygan missiyalarga erishishda IT iqtidorlar va xususiy IT ta'limni qo'llab -quvatlash,
+                    yoshlarni IT bilimini oshirishda davlat tominidan moliyalashtiriladigan dasturlarni ishlab chiqish va muvofiqlashtirish hamda aholi va davlat xizmatchilarining IT savodxonligini
+                    oshirish ustida uzoq muddatli satrategik faoliyatni olib boradi.
+                  </p>
+                </div>
+              </div>
+
+              {/* GOALS COMPANY */}
               <section>
                 <div className='mt-[120px]'>
                   <div className='flex justify-between'>
