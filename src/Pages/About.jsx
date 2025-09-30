@@ -26,6 +26,9 @@ export default class About extends Component {
               <a href="#" className='bg-[#F8F8F8] w-[147px] h-[40px] px-[32px] py-[8px] rounded-[27px] border-[1px]'>Yuqori turuvchi tashkilot</a>
             </div>
 
+
+
+            
             <main>
 
               {/* INFO COMPANY */}
