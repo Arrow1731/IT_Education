@@ -74,6 +74,25 @@ export default class About extends Component {
                   </div>
                 </div>
               </section>
+
+
+              {/* VIDEO FROM YOUTUBE */}
+
+              <section className='my-[120px]'>
+                <iframe className='rounded-[24px]' width="1200px" height="636px" src="https://www.youtube.com/embed/6a7UyMH8H4U?si=x2jeqlHK2ewXGvKx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                {/* Text */}
+
+                <div className='w-[792px] h-[351px] ml-[254px] mt-[43px]'>
+                  <p>
+                    Markaz o'z faoliyati davomida  maktab davridan boshlab yoshlarni oliy ta'lim, <br /> xususiy IT ta'lim  va ish beruvchi kompaniyalar bilan bog'lash ularni o'z qobilyatlarini <br /> aniqlash va kelajak kasblariga tayyorlash uchun kompleks dasturlarni ishlab chiqadi <br /> va amaliyotga tadbiq etadi. <br /><br /><br />
+
+                    Biz vazirlik o'z oldiga qo'ygan bosh maqsad -- raqamlashtirish orqali insonlar <br /> hayotini yaxshilash va aholining qo’shimcha daromad topishiga ko’maklashishdan <br /> iborat missiyasiga erishishiga yoshlar o'rtasida IT ta'limni ommalashtirish orqali o'z <br /> hissamizni qo'shamiz. <br /><br /><br />
+
+                    Biz munosib kalajakni yoshlar bilan birgalikda kodlaymiz!
+                  </p>
+                </div>
+              </section>
             </main>
           </div>
         </div>
