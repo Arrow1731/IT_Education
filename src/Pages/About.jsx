@@ -41,6 +41,8 @@ export default class About extends Component {
                 </div>
               </div>
 
+
+
               {/* GOALS COMPANY */}
               <section>
                 <div className='mt-[120px]'>

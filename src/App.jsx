@@ -8,7 +8,7 @@ import Loyihalar from "./Pages/Loyihalar";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Yangiliklar from "./Pages/Yangiliklar";
-import CoursesList from "./Pages/Maslahatlar/CoursesList"; // ✅ Correct
+import CoursesList from "./Pages/Maslahatlar/CoursesList";
 import Boglanish from "./Pages/Boglanish";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Universitet" element={<Universitet />} />
         <Route path="/Yangiliklar" element={<Yangiliklar />} />
-        <Route path="/Maslahatlar/courses_list" element={<CoursesList />} /> {/* lowercase path is fine */}
+        <Route path="/Maslahatlar/courses_list" element={<CoursesList />} />
         <Route path="/Boglanish" element={<Boglanish />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
