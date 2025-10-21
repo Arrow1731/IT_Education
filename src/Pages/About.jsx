@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import INFOimg from '../assets/info_img.png';
+import INFimg from '../../src/assets/info_img.png';
 
 export default class About extends Component {
   render() {
@@ -33,7 +33,7 @@ export default class About extends Component {
               <div className='mt-[80px]'>
                 <h1 className='font-bold text-[56px]'>Biz haqimizda</h1>
                 <div className='flex gap-10 mt-[40px]'>
-                  <img src={INFOimg} alt="" />
+                  <img src={INFimg} alt="" />
                   <p className='text-[20px] max-w-[588px] w-full'>Raqamli ta'limni rivojlantirish markazi vazirilik oldiga qo'ygan missiyalarga erishishda IT iqtidorlar va xususiy IT ta'limni qo'llab -quvatlash,
                     yoshlarni IT bilimini oshirishda davlat tominidan moliyalashtiriladigan dasturlarni ishlab chiqish va muvofiqlashtirish hamda aholi va davlat xizmatchilarining IT savodxonligini
                     oshirish ustida uzoq muddatli satrategik faoliyatni olib boradi.
