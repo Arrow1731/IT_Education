@@ -1,5 +1,12 @@
 import React, { Component } from 'react'
 import infoImg from '../../src/assets/Info_img.png';
+import Grid_1 from '../assets/Grid_1.png';
+import Grid_2 from '../assets/Grid_2.png';
+import Grid_3 from '../assets/Grid_3.png';
+import Grid_4 from '../assets/Grid_4.png';
+import Grid_5 from '../assets/Grid_5.png';
+import UPPER_Footer from '../Components/up_footer.jsx';
+
 
 export default class About extends Component {
   render() {
@@ -93,7 +100,28 @@ export default class About extends Component {
                   </p>
                 </div>
               </section>
+
+              {/* GRID IMAGES */}
+
+              <div className='mt-[80px]'>
+                <div className='flex justify-between items-center gap-[24px]'>
+                  <div>
+                    <img src={Grid_1} alt="" />
+                    <img className='mt-[24px]' src={Grid_2} alt="" />
+                  </div>
+                  <div>
+                    <img src={Grid_3} alt="" />
+                  </div>
+                  <div>
+                    <img src={Grid_4} alt="" />
+                    <img className='mt-[24px]' src={Grid_5} alt="" />
+                  </div>
+                </div>
+              </div>
             </main>
+
+            {/* UP FOOTER */}
+            <UPPER_Footer></UPPER_Footer>
           </div>
         </div>
       </div>

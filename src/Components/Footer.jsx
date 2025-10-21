@@ -10,7 +10,7 @@ import { Linkedin } from 'lucide-react';
 
 function Footer() {
   return (
-    <footer className="bg-[#06306D] mt-[34px]">
+    <footer className="bg-[#06306D] mt-[120px]">
       <div className="container pt-[40px] flex justify-between">
         <div>
           <img className="w-[384px] h-[224px] rounded-[12px]" src={FooterMap} alt="" />
