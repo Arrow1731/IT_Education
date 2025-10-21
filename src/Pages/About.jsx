@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import INFimg from '../../src/assets/info_img.png';
+import INFimg from '../assets/info_img.png';
 
 export default class About extends Component {
   render() {
