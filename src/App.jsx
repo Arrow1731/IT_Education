@@ -11,6 +11,8 @@ import Yangiliklar from "./Pages/Yangiliklar";
 import CoursesList from "./Pages/Maslahatlar/CoursesList";
 import Boglanish from "./Pages/Boglanish";
 
+
+
 function App() {
   return (
     <Router>
