@@ -28,10 +28,9 @@ function Navigation() {
         </NavLink>
 
           <span className="flex gap-[40px] items-center">
-            <NavLink className='font-lato font-bold text-[#424551]' to="/Loyihalar">Loyihalar</NavLink>
-            <NavLink className='font-lato font-bold text-[#424551]' to="/Oquv_markazlar">O’quv markazlar</NavLink>
-            <NavLink className='font-lato font-bold text-[#424551]' to="/Universitet">IT universitetlar</NavLink>
             <NavLink className='font-lato font-bold text-[#424551]' to="/Yangiliklar">Yangiliklar</NavLink>
+            <NavLink className='font-lato font-bold text-[#424551]' to="/Loyihalar">Loyihalar</NavLink>
+            <NavLink className='font-lato font-bold text-[#424551]' to="/Oquv_markazlar">Jamoa A'zolari</NavLink>
 
             <select
               name="select"
@@ -43,6 +42,7 @@ function Navigation() {
               <option value="/Hudud">Hudud</option>
             </select>
 
+            <NavLink className='font-lato font-bold text-[#424551]' to="/Universitet">IT universitetlar</NavLink>
             <NavLink className='font-lato font-bold text-[#424551]' to="/About">Markaz haqida</NavLink>
             <NavLink className='font-lato font-bold text-[#424551]' to="/Boglanish">Bog’lanish</NavLink>
           </span>
